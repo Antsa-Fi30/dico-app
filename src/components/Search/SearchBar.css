@@ -1,0 +1,15 @@
+/* Scoped components require higher specificity to customize */
+ion-searchbar.custom {
+  --background: #df3232;
+  --color: #fff;
+  --placeholder-color: #fff;
+  --icon-color: #fff;
+  --clear-button-color: #fff;
+  --border-radius: 20px;
+  transition: all 0.3s ease-in;
+}
+
+ion-searchbar.custom:active {
+  box-shadow: 0px 0px 30px #df3232;
+  transition: all 0.3ms ease-in;
+}

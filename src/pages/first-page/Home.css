@@ -1,0 +1,39 @@
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 6vh;
+  padding: 5%;
+}
+
+.container-button {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10%;
+}
+
+.bloc-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcoming {
+  font-family: "Poppins";
+  font-size: 47px;
+  font-weight: 900;
+  line-height: 1.6cm;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+}
+
+.getStarted-button {
+  display: flex;
+  text-align: center;
+  margin-block: 10px;
+  margin-inline: 10px;
+  padding: 9%;
+}
