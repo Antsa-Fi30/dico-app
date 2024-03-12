@@ -1,5 +1,6 @@
 import React from "react";
 import { IonButtons, IonContent, IonMenuButton, IonPage } from "@ionic/react";
+import TradContent from "../components/Traduction/TradContent";
 
 const Traduction: React.FC = () => {
   return (
@@ -8,7 +9,9 @@ const Traduction: React.FC = () => {
         <IonMenuButton />
       </IonButtons>
 
-      <IonContent fullscreen>Traduction</IonContent>
+      <IonContent fullscreen>
+        <TradContent />
+      </IonContent>
     </IonPage>
   );
 };

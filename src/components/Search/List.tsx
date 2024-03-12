@@ -13,7 +13,7 @@ import {
 
 import "./List.css";
 
-function List() {
+function List({}) {
   return (
     <div className="itemSearch">
       <h1 className="title">Bonjour</h1>

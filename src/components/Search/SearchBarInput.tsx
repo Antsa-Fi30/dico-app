@@ -5,10 +5,16 @@ import "./SearchBar.css";
 const SearchbarInput: React.FC = () => {
   const [searchWord, setSearchWord] = useState("");
   const handleSearch = (event: any) => {
-    console.log(event);
+    setSearchWord(event.nativeEvent.target.value);
   };
 
-  return <IonSearchbar class="custom" onChange={handleSearch}></IonSearchbar>;
+  return (
+    <IonSearchbar
+      class="custom"
+      onKeyUp={handleSearch}
+      value={searchWord}
+    ></IonSearchbar>
+  );
 };
 
 export default SearchbarInput;

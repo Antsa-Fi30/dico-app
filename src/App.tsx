@@ -29,6 +29,7 @@ import "./theme/variables.css";
 
 //Menu Components
 import Menu from "./components/Menu";
+import { IonButtons, IonContent, IonMenuButton, IonPage } from "@ionic/react";
 
 // Pages components
 import Welcoming from "./pages/first-page/Welcoming";

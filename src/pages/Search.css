@@ -15,8 +15,8 @@ Ion-menu-button.md {
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(4.5px);
   -webkit-backdrop-filter: blur(4.5px);
-  border: 1px solid rgb(67, 29, 236);
-  color: rgb(67, 29, 236);
+  border: 1px solid rgb(247, 247, 247);
+  color: rgb(247, 247, 247);
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
@@ -24,8 +24,8 @@ Ion-menu-button.ios {
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(4.5px);
   -webkit-backdrop-filter: blur(4.5px);
-  color: rgb(125, 98, 243);
-  border-radius: 10px;
+  color: rgb(247, 247, 247);
+  border-radius: 5px;
 
   transition: all 0.3s ease-in-out;
 }
